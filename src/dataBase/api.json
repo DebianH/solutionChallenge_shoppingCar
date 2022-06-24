@@ -1,0 +1,44 @@
+[
+    {
+        "price": 1.99,
+        "id": 1,
+        "title": "Estampita Aroma",
+        "description": "Atraera tu primer trabajo como desarrollador y al amor de tu vida.",
+        "imgUrl": "/src/images/santo1.jpg"
+    },
+    {
+        "price": 2.99,
+        "id": 2,
+        "title": "Estampita Github",
+        "description": "Para que todos tu repos siempre esten disponibles y hagas un buen diploy.",
+        "imgUrl": "/src/images/santo2.jpg"
+    },
+    {
+        "price": 1.00,
+        "id": 3,
+        "title": "Estampita Trainee",
+        "description": "Te ayuda a encontrar tu primer trabajo como ingeniero en software.",
+        "imgUrl": "/src/images/santo3.jpg"
+    },
+    {
+        "price": 5.99,
+        "id": 4,
+        "title": "Estampita Remoto",
+        "description": "Para que nunca mas trabajes en presencial ni uses uniforme",
+        "imgUrl": "/src/images/santo4.jpg"
+    },
+    {
+        "price": 0.99,
+        "id": 5,
+        "title": "Estampita Facilito",
+        "description": "Tu código siempre se ha facilito de leer.",
+        "imgUrl": "/src/images/santo5.jpg"
+    },
+    {
+        "price": 1.99,
+        "id": 6,
+        "title": "Estampita Animalista",
+        "description": "Para que siempre estes acompañado con tu mascota.",
+        "imgUrl": "/src/images/santo6.jpg"
+    }
+]

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Shoping Card</title>
+</head>
+<body>
+
+    <main class="container">
+        <div class="nav">
+            <h3>Estampitiency</h3>
+            <div class="resultados" id="resultados"><span></span> productos $<span></span>&#128176;</div>
+            <button id="shopping_car" class="shopping_car">&#128722;</button>
+        </div>
+        <div class="gallery" id="gallery"></div>
+     </main>
+    <template class="card" id="card">
+        <div class="details">
+            <div class="card_img">
+                <img src="" alt="">
+            </div>
+            <h4>Titulo</h4>
+            <p class="price"></p>
+            <p class="description"></p>
+            <button class="card__btn">Agregar</button>
+        </div>
+    </template>
+
+    <div class="tables">
+        <table>
+            <div id="cerrar" class="cerrar">&#10060;</div>
+              <thead class="table-row">
+                  <tr>
+                      <th><b>id</b></th>
+                      <th><b>Item</b></th>
+                      <th><b>Cantidad</b></th>
+                      <th><b>Accion</b></th>
+                      <th><b>Total</b></th>
+                  </tr>
+              </thead>
+              <tbody id="items-carrito"></tbody>
+              <tfoot>
+                  <tr id="footer">
+                      <th>carrito vacio</th>
+                  </tr>
+              </tfoot>
+        </table>
+
+        <template id="template-footer" class="template-footer">
+            <th>Total</th>
+            <td>10</td>
+            <td>
+                <button type="submit" class="btn car__btn" id="car-btn">vaciar carrito</button>
+            </td>
+            <td>$ <span></span></td>
+        </template>
+
+        <template id="template-carrito">
+            <tr>
+                <th></th>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="submit" class="btn btn__plus">+</button>
+                    <button type="submit" class="btn btn__minus">-</i></button>
+                </td>
+                <td>$ <span></span></td>
+            </tr>
+        </template>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
