@@ -1,6 +1,6 @@
 # solutionChallenge_shoppingCar
 
-##Este reto trata de construir un carrito de compras con las estampitas de @goncy con las siguientes tecnologías.
+## Este reto trata de construir un carrito de compras con las estampitas de @goncy con las siguientes tecnologías.
 
 - [*] Hmtl5
 - [*] Css3
